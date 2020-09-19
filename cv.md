@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: Vitalii Medvezhynskyi
+![123](/E:/cv/rsschool-cv/photo_2020-09-19_01-08-34.jpg)
 ---
 # Vitalii Medvezhynskyi
 
@@ -11,7 +12,7 @@ Very promising guy, Student
 Lviv, Ukraine, Academic Lazarenko str., 40
 +380683164044
 email: vitaiimedvezhynskyi@gmail.com
-linkedin: <div id="linkedin"><a href="https://www.linkedin.com/in/vitalik-medvezhinskiy-653440176">Vitalik Medvezhinskiy</a></div>
+linkedin: Vitalik Medvezhinskiy
 
 
 ## Goal
@@ -24,12 +25,12 @@ Improve own skills, get a job in your company.
 ## Experience
 None
 
-## Additional skills:
-• Knowledge of English (Level B2), Russian, Ukrainian(Native), German (A1)
-• Knowledge base C, C #, Python, HTML, CSS, JS.
-• Basic knowledge CI, CD, GitHub, GitLab
-• Knowledge of Word, Excel, PowerPoint
-• Possession of Windows and Linux distributions
-• Ability to quickly assimilate new information
-• Good search capabilities
-• Passed the SoftServe CrashCourse in the DevOps direction
+### Additional skills:
+- Knowledge of English (Level B2), Russian, Ukrainian(Native), German (A1)
+- Knowledge base C, C #, Python, HTML, CSS, JS.
+-  Basic knowledge CI, CD, GitHub, GitLab
+- Knowledge of Word, Excel, PowerPoint
+- Possession of Windows and Linux distributions
+- Ability to quickly assimilate new information
+- Good search capabilities
+- Passed the SoftServe CrashCourse in the DevOps direction
