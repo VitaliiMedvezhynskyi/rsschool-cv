@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>HTML, CSS & Git Basics</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+            background-image: url(background.jpg);
+        }
+        .content {
+            width: 50%;
+            margin: auto;            
+        }
+        h1 {
+            text-transform: uppercase;
+            font-size: 2.5em;
+            margin: auto;
+        }
+        h2 {
+            text-transform: uppercase;
+            color: red;
+        }
+        header {
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            flex-wrap: wrap;
+            padding: 30px 0px 40px 0px;            
+        }       
+        .myphoto {
+            width: 150px;
+            border-radius: 30%;
+            margin: auto;
+        } 
+        .info {
+            margin: auto;
+        }
+        .location {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .contacts {
+            margin-bottom: 3px;
+        }
+        section {
+            margin-bottom: 30px;
+            line-height: 25px;
+        }
+        .icon {
+            margin: auto 5px auto 0px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #353535;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .socialmedia {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img class = "myphoto" src="photo_2020-09-20_00-10-38.jpg" alt="myphoto">
+            <div class = "info">
+                <h1>Vitalii Medvezhynskyi</h1>
+                <div class = "location"><img class = "icon" src="marker.png" alt="marker" height="15px"><b>Lviv, Ukraine</b></div>
+                <div class ="contacts"><a href="mailto:vitaliimedvezhynskyi@gmail.com"><img class = "icon" src="mail.png" alt="mail" height="15px"><b>vitaliimedvezhynskyi@gmail.com</b></a></div>
+                <div class = "contacts"><img class = "icon" src="telephone.png" alt="phone" height="15px"><b>+380683164044</b></div>
+            </div>
+        </header>
+        <main>  
+           <section>
+                <h2>About me</h2>
+                <hr>
+                <p> <b>Very promising guy, Student of National University “Lviv Polytechnic”.</b><br/>
+                    <b>Good search capabilities.</b></p>
+                <p><b>My goal is improve own skills, get a job in your company.</b></p>
+           </section>
+            <section>
+                <h2>Skills</h2>
+                <hr>
+                <div>
+                    <p><b>Knowledge of English (Level B2), Russian, Ukrainian(Native), German (A1)</b></p>
+                    <p><b>Knowledge base C, C #, Python, HTML, CSS, JS.</b></p>  
+                    <p><b>Basic knowledge CI, CD, GitHub, GitLab</b></p> 
+                    <p><b>Knowledge of Word, Excel, PowerPoint</b></p> 
+                    <p><b>of Windows and Linux distributions</b></p>
+                </div>  
+            </section>
+            <section>
+                <h2>Experience</h2>
+                <hr>
+                <div>
+                    <p><b>Passed the SoftServe CrashCourse in the DevOps direction</b></p>  
+                </div>
+                </section>
+                <section>
+                <h2>Education:</h2>
+                <hr>
+                <div>
+                    <p><b>2006 - 2017 Drogobych comprehensive school of I-III degrees №10 (Silver medal)</b></p> 
+                    <p><b>2017 - till now - National University “Lviv Polytechnic” (Specialty: Cyber Security)</b></p>
+                </div>
+            </section>
+            <section>
+                <h2>English</h2>
+                <hr>
+                <p><strong>B2 - Upper-Intermediate</strong></br>
+            </section>
+        </main>
+        <footer>
+            <h2>Contacts</h2>
+            <hr>
+            <div class = "socialmedia">
+                <div>
+                    <div class ="contacts"><a href="mailto:vitaliimedvezhynskyi@gmail.com"><img class = "icon" src="mail.png" alt="mail" height="15px">vitaliimedvezhynskyi@gmail.com</a></div>
+                    <div class = "contacts"><img class = "icon" src="telephone.png" alt="phone" height="15px"><b>+380683164044</b></div>
+                </div>
+                    <div><a href="https://github.com/VitaliiMedvezhynskyi"><img class = "icon" src="github.png" alt="Github" height="25px"><br/></a></div>
+                    <div><a href="http://t.me/KaKashi_kun"><img class = "icon" src="telegram.png" alt="Telegram" height="25px"><br/></a></div>
+                    <div><a href="https://www.linkedin.com/in/vitalik-medvezhinskiy-653440176/"><img class = "icon" src="linkedin.png" alt="LinkedIn" height="25px"><br/></a></div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>
