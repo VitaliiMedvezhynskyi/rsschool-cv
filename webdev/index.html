@@ -140,6 +140,7 @@
             height: 504px;
             left: 0px;
             top: 1586px;
+            background: #F5F6F7;
 
         }
         .implement{
@@ -171,7 +172,7 @@
             width: 730px;
             height: 75px;
             left: calc(50% - 730px/2);
-            top: calc(50% - 75px/2 - 104.5px);
+            top: 130px;
             font-family: Roboto, sans-serif;
             font-style: normal;
             font-weight: bold;
@@ -184,6 +185,182 @@
             letter-spacing: 4.5px;
             text-transform: uppercase;
             color: #FFFFFF;
+        }
+        .text{
+            position: absolute;
+            width: 504px;
+            height: 50px;
+            left: calc(50% - 504px/2);
+            top: 335px;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 140%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .btn-main{
+            display: flex;
+            flex-direction: row;
+            padding: 15px 47px;
+            position: absolute;
+            width: 184px;
+            height: 46px;
+            left: calc(50% - 184px/2);
+            top: calc(50% - 46px/2 + 56px);
+            background: #00AFDB;
+        }
+        .btn-main:hover{
+            background:#009CC2 ;
+        }
+        .btn{
+            position: static;
+            width: 90px;
+            height: 16px;
+            left: calc(50% - 90px/2);
+            top: calc(50% - 16px/2);
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            align-self: center;
+            margin: 0px 0px;
+            white-space: pre;
+        }
+        .socials{
+            position: absolute;
+            width: 170px;
+            height: 20px;
+            left: calc(50% - 170px/2);
+            bottom: 90px;
+            margin: 0px 22.5px 0px 0px;
+        }
+        .content{
+            width: 407px;
+            height: 582px;
+            margin-left: 924px;
+            margin-top: 120px;
+
+        }
+        .idea{
+            position: absolute;
+            width: 367px;
+            height: 57px;
+            left: 269px;
+            top: 295px;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #373737;
+            text-align: left;
+            white-space: pre;
+        }
+        .idea1{
+            position: absolute;
+            width: 407px;
+            height: 80px;
+            left: 269px;
+            top: 372px;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #4E4E4E;
+            white-space: pre;
+        }
+        .btn-main1{
+            display: flex;
+            flex-direction: row;
+            padding: 15px 47px;
+            position: absolute;
+            width: 184px;
+            height: 46px;
+            left: 269px;
+            top: 482px;
+            background: #00AFDB;
+        }
+        .btn-main1:hover{
+            background:#009CC2;
+        }
+        .user-card{
+            top: 155px;
+            left: 269px;
+        }
+        #userpic{
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            left: 396px;
+            top: 155px;
+        }
+        .community{
+            position: absolute;
+            width: 160px;
+            height: 20px;
+            left: 338px;
+            top: 220px;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+            color: #373737;
+            white-space: pre;
+
+        }
+        .text{
+            position: absolute;
+            width: 298px;
+            height: 80px;
+            left: 269px;
+            top: 250px;
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            color: #4E4E4E;
+        }
+        .overflow{
+            overflow-x:auto;
+            width: 244px;
+            height: 244px;
+            top: 120px;
+            left: 706px;
+            margin-left: 706px;
+            margin-top: 120px;
+        }
+        #slider1{
+            margin-right: 20px;
+        }
+        #slider2{
+            top: 120px;
+            left: 706px;
+            margin-right: 20px;
         }
     </style>
 </head>
@@ -199,18 +376,44 @@
                     <a href=""><img class="vector" src="logo.png" alt="logo"> </a>
                     <a class="Projects" href="">Projects</a>
                     <a class="FAQ" href="">FAQ</a>
-                    
-                
-                
             </nav>
             <h1  class="control">webdev</h1>
         </header>
         <h1 class="life">YOUR LIFE IS WEBDEV</h1>
+        <p class="text">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+        <button class="btn-main"><p class="btn">GET STARTED</p></button>
+        <nav class="socials"> 
+            <a class="mail" href=""><img src="mail_fff.png" alt="mail"></a>
+            <a class="facebook" href=""><img src="facebook_fff.png" alt="facebook"></a>
+            <a class="insta" href=""><img src="insta_fff.png" alt="insta"></a>
+            <a class="youtube" href=""><img src="youtube_fff.png" alt="youtube"></a>
+        </nav>
     </div>
     <div class="rappresent">
-
+        <img class="content" src="content-image-1.png" alt="content">
+        <div>
+            <p class="idea" >RAPPRESENT YOUR IDEA WITH
+A SMART DESIGN</p>
+            <p class="idea1">Tasks accompanying and related to programming include:
+testing, debugging, source code maintenance, <b>implementation of 
+build systems</b>, and management of derived artifacts, such as the
+machine code of computer programs.</p>
+        <button class="btn-main1"><p class="btn">GET STARTED</p></button>
+        </div>
     </div>
-    <div class="ourcommunity"></div>
+    <div class="ourcommunity">
+        <div class="user-card">
+            <img id="userpic" src="userpic.png" alt="user_pictures">
+            <h2 class="community"><b>our community</b></h2>
+            <p class="text">A hacker is any skilled computer expert that uses their technical knowledge to overcome a 
+problem, but it can also mean a security hacker in common language</p>
+        </div>
+        <div class="overflow">
+            <img id="slider1" src="slider-item.png" alt="123">
+            <img id="slider2" src="slider-item1.png" alt="">
+            <img id="" src="slider-item1.png" alt=""> 
+        </div>
+    </div>
     <div class="implement"></div>
     <div class="signup"></div>
     <div class="download"></div>
